@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mfa/dech/work/spark_sqlite/2_coffee_example/src/main/resources/logback.xml,/home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/mfa/dech/work/spark_sqlite/2_coffee_example/src/main/resources/application.conf,/home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/application.conf)[0m

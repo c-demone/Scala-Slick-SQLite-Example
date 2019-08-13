@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/sqlite-connector_2.12-3.3.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Suppliers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/Suppliers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DBGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/DBGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DBGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/DBGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Coffees.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/Coffees.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DBGenerator$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/mfa/dech/work/spark_sqlite/2_coffee_example/target/scala-2.12/classes/DBGenerator$delayedInit$body.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

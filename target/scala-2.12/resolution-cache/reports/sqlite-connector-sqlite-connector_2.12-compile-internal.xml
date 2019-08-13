@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="sqlite-connector"
+		module="sqlite-connector_2.12"
+		revision="3.3"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190813162037"/>
+	<dependencies>
+		<module organisation="com.typesafe.slick" name="slick-hikaricp_2.12">
+			<revision name="3.2.2" status="release" pubdate="20180306165348" resolver="public" artresolver="public" homepage="http://slick.typesafe.com" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="2352" time="144" location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/ivy-3.2.2.xml" searched="true" original-local-location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/ivy-3.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.2.2/slick-hikaricp_2.12-3.2.2.pom"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="3.3"/>
+				<artifacts>
+					<artifact name="slick-hikaricp_2.12" type="bundle" ext="jar" status="successful" details="" size="6959" time="455" location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/bundles/slick-hikaricp_2.12-3.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.2.2/slick-hikaricp_2.12-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="2.5.1" status="release" pubdate="20160919074722" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7421" time="0" location="/home/mfa/dech/.ivy2/cache/com.zaxxer/HikariCP/ivy-2.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="2.5.1" rev-constraint-default="2.5.1" rev-constraint-dynamic="2.5.1" callerrev="3.2.2"/>
+				<artifacts>
+					<artifact name="HikariCP" type="bundle" ext="jar" status="no" details="" size="136363" time="0" location="/home/mfa/dech/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.12">
+			<revision name="3.2.2" status="release" pubdate="20180306165404" resolver="public" artresolver="public" homepage="http://slick.typesafe.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="7">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="2477" time="100" location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.2.2.xml" searched="true" original-local-location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.2/slick_2.12-3.2.2.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="3.2.2"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.3"/>
+				<artifacts>
+					<artifact name="slick_2.12" type="bundle" ext="jar" status="successful" details="" size="3819978" time="1445" location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.2/slick_2.12-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.2.0" status="release" pubdate="20170224075407" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="/home/mfa/dech/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.2.0/slick_2.12-3.2.0.pom"/>
+				<evicted-by rev="3.2.2"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316123632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/mfa/dech/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.2.2"/>
+				<caller organisation="org.slf4j" name="slf4j-nop" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.7.18" rev-constraint-default="1.7.18" rev-constraint-dynamic="1.7.18" callerrev="3.2.0"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.5.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="/home/mfa/dech/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.18" status="release" pubdate="20160226135109" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/mfa/dech/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.18/slf4j-api-1.7.18.pom"/>
+				<evicted-by rev="1.7.25"/>
+				<caller organisation="org.slf4j" name="slf4j-nop" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.7.18" rev-constraint-default="1.7.18" rev-constraint-dynamic="1.7.18" callerrev="3.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.21" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.25"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.18"/>
+				<caller organisation="org.slf4j" name="slf4j-nop" conf="default, compile, runtime, master" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.6.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial" name="sqlite-jdbc">
+			<revision name="3.7.2" status="release" pubdate="20100827052018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3514" time="0" location="/home/mfa/dech/.ivy2/cache/org.xerial/sqlite-jdbc/ivy-3.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.pom"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="3.7.2" rev-constraint-default="3.7.2" rev-constraint-dynamic="3.7.2" callerrev="3.3"/>
+				<artifacts>
+					<artifact name="sqlite-jdbc" type="jar" ext="jar" status="no" details="" size="3201133" time="0" location="/home/mfa/dech/.ivy2/cache/org.xerial/sqlite-jdbc/jars/sqlite-jdbc-3.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-nop">
+			<revision name="1.6.4" status="release" pubdate="20111031184556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4291" time="0" location="/home/mfa/dech/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.6.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.pom"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="3.3"/>
+				<artifacts>
+					<artifact name="slf4j-nop" type="jar" ext="jar" status="no" details="" size="4811" time="0" location="/home/mfa/dech/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.6.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.4/slf4j-nop-1.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.4.197" status="release" pubdate="20180318162844" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MPL 2.0 or EPL 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2454" time="0" location="/home/mfa/dech/.ivy2/cache/com.h2database/h2/ivy-1.4.197.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.197/h2-1.4.197.pom"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="1.4.197" rev-constraint-default="1.4.197" rev-constraint-dynamic="1.4.197" callerrev="3.3"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1927540" time="0" location="/home/mfa/dech/.ivy2/cache/com.h2database/h2/jars/h2-1.4.197.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.197/h2-1.4.197.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429121454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/home/mfa/dech/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.2.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.2.0"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="2042" time="0" location="/home/mfa/dech/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502105416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2878" time="0" location="/home/mfa/dech/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="3.2.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="3.2.0"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/home/mfa/dech/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204051556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/mfa/dech/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.2.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.2.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.2.0"/>
+				<caller organisation="sqlite-connector" name="sqlite-connector_2.12" conf="compile-internal, compile, provided, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="3.3"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/home/mfa/dech/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
